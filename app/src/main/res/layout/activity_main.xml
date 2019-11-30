@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="280dp"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@color/colorPrimaryDark"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/userpic"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginTop="70dp"-->
+    <!--            android:src="@drawable/userpicbig" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/user"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="14dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="Mohamed"-->
+    <!--            android:textColor="#FFF"-->
+    <!--            android:textSize="20dp"-->
+    <!--            android:textStyle="normal" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/country"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="4dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="Egypt"-->
+    <!--            android:textColor="#FFF"-->
+    <!--            android:textSize="16sp"-->
+    <!--            android:textStyle="normal" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/exp"-->
+    <!--            android:gravity="left"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            android:text="Explore"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textColor="#FFF"-->
+    <!--            android:layout_marginTop="40dp"-->
+    <!--            android:layout_marginLeft="24dp"-->
+    <!--            android:textSize="18sp"-->
+    <!--            android:textStyle="normal"/>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/ad"-->
+    <!--            android:gravity="left"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            android:text="AddOns"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textColor="#4B577B"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:layout_marginLeft="24dp"-->
+    <!--            android:textSize="18sp"-->
+    <!--            android:textStyle="normal"/>-->
+    <!--        <Button-->
+    <!--            android:id="@+id/msg"-->
+    <!--            android:gravity="left"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            android:text="Massages"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textColor="#4B577B"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:layout_marginLeft="24dp"-->
+    <!--            android:textSize="18sp"-->
+    <!--            android:textStyle="normal"/>-->
+    <!--        <Button-->
+    <!--            android:id="@+id/set"-->
+    <!--            android:gravity="left"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            android:text="Settings"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textColor="#4B577B"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:layout_marginLeft="24dp"-->
+    <!--            android:textSize="18sp"-->
+    <!--            android:textStyle="normal"/>-->
+    <!--        <Button-->
+    <!--            android:id="@+id/so"-->
+    <!--            android:gravity="left"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            android:text="Sign Out"-->
+    <!--            android:textAllCaps="false"-->
+    <!--            android:textColor="#4B577B"-->
+    <!--            android:layout_marginTop="55dp"-->
+    <!--            android:layout_marginLeft="24dp"-->
+    <!--            android:textSize="18sp"-->
+    <!--            android:textStyle="normal"/>-->
+
+    <!--    </LinearLayout>-->
+
+    <RelativeLayout
+        android:layout_width="416dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/userpicmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/userpic" />
+
+        <TextView
+            android:id="@+id/usermenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:text="Mohamed"
+            android:textColor="#181c34"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/countrymenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center"
+            android:text="Egypt"
+            android:textColor="#181c34"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="left"
+            android:text="Mohamed"
+            android:layout_alignBottom="@+id/usermenu"
+            android:textColor="#181c34"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="left"
+            android:text="Egypt"
+            android:textColor="#181c34"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
